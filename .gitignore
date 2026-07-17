@@ -1,0 +1,25 @@
+# Flutter
+Frontend/build/
+Frontend/build_*/
+Frontend/build_locked_*/
+Frontend/.dart_tool/
+Frontend/.pub-cache/
+Frontend/.flutter-plugins-dependencies
+
+# Android
+Frontend/android/.gradle/
+Frontend/android/app/build/
+
+# Backend
+mybackend/.env
+mybackend/venv/
+mybackend/__pycache__/
+mybackend/*.db
+
+# Python
+**/__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
