@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 
 class ApiService {
-  static final String baseUrl = 'https://rupee-lens-v2.loca.lt';
+  static final String baseUrl = 'http://192.168.1.8:8000';
 
   final Dio _dio = Dio(BaseOptions(
     baseUrl: baseUrl,
